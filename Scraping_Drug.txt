@@ -1,0 +1,19 @@
+﻿I need to Find Drugs by Disease or Condition.
+
+Step 1.
+https://www.drugs.com/medical_conditions.html
+-- Browse drugs for all diseases & conditions alphabetically:
+A,B,C,D,E,F-----Z
+
+Step 2
+https://www.drugs.com/condition/a.html to https://www.drugs.com/condition/z.html
+Loop through all Conditions listed under  "Alphabetical"
+
+Step 3
+https://www.drugs.com/condition/alkylating-agent-cystitis.html
+
+
+Extract the following data and insert into a mysql table like the following for all the all conditions available starting from A to Z.
+If a condition does not have drugs, mark it as none/nil
+
+Condition Name, Drug name, Rx / OTC, Preg, CSA, Alcohol, Reviews,Rating
